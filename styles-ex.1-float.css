@@ -1,0 +1,50 @@
+.box {
+  
+}
+
+.green {
+    background-color: rgb(173, 245, 20);
+    width: 20%;
+    height: 20px;
+    display: inline-block;
+    float: inline-start;
+}
+
+.purple {
+    background-color: rgb(123, 85, 230) ;
+    width: 20%;
+    height: 20px;
+    display: inline-block;
+    float: inline-start;
+}
+
+.pink {
+    background-color: rgb(204, 16, 151);
+    width: 20%;
+    height: 20px;
+    display: inline-block;
+    float: inline-start;
+}
+
+.gray {
+  background-color: gray;
+  display: inline-block;
+  width: 40%;
+  height: 20px;
+}
+
+.home {
+    background-color: rgb(237, 255, 255);
+    width: 100%;
+    height: 50px;
+    border-style: solid;
+    border-color: rgb(120, 168, 245);
+}
+
+
+
+li {
+    display: inline;
+    margin-right: 20px;
+    font-family: Roboto;
+}
