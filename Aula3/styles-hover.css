@@ -1,0 +1,93 @@
+.botao1 {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.botao1:hover {
+   background-color: blueviolet;
+}
+
+.button {
+    margin-top: 100px;
+    width: 300px;
+    height: 50px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.table-cabecalho {
+    margin-top: 100px;
+    width: 400px;
+    height: 50px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+}
+
+.menu {
+    position: relative;
+    padding: 25px;
+}
+
+.menu li {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu:hover li {
+    background-color: blueviolet;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+.dropdown li {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown li:hover {
+    background-color: #555;
+}
+
+.menu:hover .dropdown {
+    display: block;
+}
+
+.green-purple-glow{    
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+
+}
+
+.green-purple-glow:hover{
+    background-color: rgb(150, 28, 199);
+    webkit-box-shadow:0px 0px 105px 45px rgba(151,28,199,0.9);
+    moz-box-shadow: 0px 0px 105px 45px rgba(151,28,199,0.9);
+    box-shadow: 0px 0px 105px 45px rgba(151,28,199,0.9);
+}
