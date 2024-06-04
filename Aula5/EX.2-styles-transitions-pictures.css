@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+.box {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.pic-text {
+    display: flex;
+}
+
+.pic-text div {
+    border: 2px solid white;
+    filter: grayscale(0%);
+    height: 300px;
+    width: 75px;
+    transition: all 0.5s ease-in-out;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic1 {
+    background-image: url(https://picsum.photos/400/300?random=1);
+}
+
+.pic2 {
+    background-image: url(https://picsum.photos/400/300?random=2);
+}
+
+.pic3 {
+    background-image: url(https://picsum.photos/400/300?random=3);
+}
+
+.pic4 {
+    background-image: url(https://picsum.photos/400/300?random=4);
+}
+
+.pic-text div:hover{
+    filter: grayscale(100%);
+    width: 400px;
+    height: 300px;
+}
+
+
+
+
+

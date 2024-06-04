@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-bola {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 166, 0);
+    position: relative;
+    overflow: hidden;
+    animation: animate 0.9s infinite;
+}
+
+.circulo1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid;
+    top:90px;
+    left: -20px;
+}
+
+.circulo2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid;
+    top:10px;
+    left: 120px;
+}
+
+.traco-vertical {
+    position: absolute;
+    width: 0%;
+    height: 200px;
+    border: solid;
+    border-width: 2px;
+    left: 100px;
+    transform: rotate(140deg);
+}
+
+.traco-horizontal {
+    position: absolute;
+    width: 0%;
+    height: 200px;
+    border: solid;
+    border-width: 2px;
+    left: 100px;
+    transform: rotate(60deg); 
+}
+
+
+.sombra {
+    width: 200px;
+    height: 30px;
+    border-radius: 80%;
+    background-color: rgba(0, 0, 0, 0.658);
+    position: absolute;
+    overflow: visible;
+    bottom: 200px;
+    animation: sombra 0.9s infinite;
+}
+
+
+@keyframes animate {
+    0%{
+        transform: translateY(50px);
+        height: 200px;
+        width: 200px;
+    }
+
+    25%{
+        transform: translateY(400px);
+        height: 180px;
+        width: 210px;
+    }
+    50%{
+        transform: translateY();
+        height: 185px;
+        width: 200px;
+        
+    }
+    75%{
+        transform: translateY();
+        height: 190px;
+        width: 200px;
+    }
+    100%{
+        transform: translateY();
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@keyframes sombra{
+    0%{
+        height: px;
+        width: px;
+    }
+    25%{
+        height: px;
+        width: px;
+    }
+    50%{
+        height: px;
+        width:130px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    60%{
+        height: px;
+        width: px;
+    }
+
+    75%{
+        height: px;
+        width: px;
+    }
+    100%{
+        height: px;
+        width: px;
+    }
+}
