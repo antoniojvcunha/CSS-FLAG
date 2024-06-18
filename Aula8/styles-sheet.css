@@ -1,0 +1,11 @@
+.bg-container{
+    background-image: url("img/Hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+body{
+    background-color: #EAEAEA;
+}
